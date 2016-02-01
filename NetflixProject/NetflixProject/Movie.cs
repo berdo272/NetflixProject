@@ -21,5 +21,6 @@ namespace NetflixProject
         {
             return (Name + " has a duration of : " + DurationInMinutes + " minutes."); 
         }
+
     }
 }

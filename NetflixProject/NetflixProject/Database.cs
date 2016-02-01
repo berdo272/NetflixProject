@@ -41,7 +41,7 @@ namespace NetflixProject
         }
         public void PopulateActionTitlesList(Genre Action,Genre All)
         {
-            Action.ListOfTitles.Add( All.ListOfTitles[0]);
+            Action.ListOfTitles.Add(All.ListOfTitles[0]);
             Action.ListOfTitles.Add(All.ListOfTitles[1]);
             Action.ListOfTitles.Add(All.ListOfTitles[5]);
             Action.ListOfTitles.Add(All.ListOfTitles[7]);
@@ -53,6 +53,7 @@ namespace NetflixProject
         }
         public void PopulateDramaTitlesList(Genre Drama, Genre All)
         {
+            Drama.ListOfTitles.Add(All.ListOfTitles[2]);
             Drama.ListOfTitles.Add(All.ListOfTitles[3]);
             Drama.ListOfTitles.Add(All.ListOfTitles[4]);
             Drama.ListOfTitles.Add(All.ListOfTitles[8]);

@@ -30,6 +30,7 @@ namespace NetflixProject
                 yield return title;
             }
         }
+
         //public static Genre operator +(Genre genre1,Genre genre2)
         //{
         //    return new Genre(genre1 + genre2);

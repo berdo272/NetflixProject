@@ -10,15 +10,15 @@ namespace NetflixProject
     {
         List<Episode> Episodes;
 
-            
+
 
         public new int Rating;
         private int ratings;
         Random rnd = new Random();
-        
+
         public TV_Show(string name)
         {
-            
+
             this.Name = name;
             PopulateEpisodeList();
             GetAverageRatingOfEpisodes();
@@ -41,8 +41,8 @@ namespace NetflixProject
 
         public void GetAverageRatingOfEpisodes()
         {
-            
-            foreach(Episode episode in Episodes)
+
+            foreach (Episode episode in Episodes)
             {
                 ratings += episode.Rating;
             }
